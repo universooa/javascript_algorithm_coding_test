@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d2dd8c-708a-4f7a-806b-421c8f16762f" name="Changes" comment="자바스크립트 알고리즘 문제 풀기">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/기초 알고리즘/10818 최소,최대.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/기초 알고리즘/2562 최댓값.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/기초 알고리즘/3052 나머지.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/기초 알고리즘/병합 정렬.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2VBvSGhgyuEN9IpPlFy1N4xvA3d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -78,7 +83,7 @@
       <updated>1694322288236</updated>
       <workItem from="1694322288830" duration="1555000" />
       <workItem from="1694323947214" duration="839000" />
-      <workItem from="1694326655094" duration="225000" />
+      <workItem from="1694326655094" duration="523000" />
     </task>
     <task id="LOCAL-00001" summary="자바스크립트 알고리즘 문제 풀기">
       <option name="closed" value="true" />
