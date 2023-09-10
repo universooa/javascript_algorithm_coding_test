@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d2dd8c-708a-4f7a-806b-421c8f16762f" name="Changes" comment="자바스크립트 알고리즘 문제 풀기" />
+    <list default="true" id="28d2dd8c-708a-4f7a-806b-421c8f16762f" name="Changes" comment="자바스크립트 알고리즘 문제 풀기">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "16.14.2",
     "javascript.nodejs.core.library.typings.version": "16.18.50",
@@ -52,7 +56,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,13 +71,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35150f77-4a4a-4228-b0d6-6de394977d7a" name="Changes" comment="" />
+      <changelist id="28d2dd8c-708a-4f7a-806b-421c8f16762f" name="Changes" comment="자바스크립트 알고리즘 문제 풀기" />
       <created>1694322288236</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694322288236</updated>
       <workItem from="1694322288830" duration="1555000" />
       <workItem from="1694323947214" duration="839000" />
+      <workItem from="1694326655094" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="자바스크립트 알고리즘 문제 풀기">
       <option name="closed" value="true" />
