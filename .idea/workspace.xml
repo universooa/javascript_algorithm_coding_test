@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28d2dd8c-708a-4f7a-806b-421c8f16762f" name="Changes" comment="자바스크립트 알고리즘 문제 풀기">
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/11004 K번째 수.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/11650 좌표 정렬하기.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/11651 좌표 정렬하기 2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/2750 수 정렬하기.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/2751 수 정렬하기2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/정렬 알고리즘/2752 세수정렬.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/11047 동전 0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/11399 ATM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/11509 풍선 맞추기.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/13305 주유소.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/1493 박스 채우기.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/1541 잃어버린 괄호.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/16953 A to B.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/17609 회문.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/1789 수들의 합.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/1931 회의실 배정.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/1946 신입 사원.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/19939 박 터뜨리기.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/2839 설탕 배달.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascript_algorithm_coding_test/그리디 알고리즘/9009 피보나치.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +94,7 @@
       <updated>1694322288236</updated>
       <workItem from="1694322288830" duration="1555000" />
       <workItem from="1694323947214" duration="839000" />
-      <workItem from="1694326655094" duration="824000" />
+      <workItem from="1694326655094" duration="1128000" />
     </task>
     <task id="LOCAL-00001" summary="자바스크립트 알고리즘 문제 풀기">
       <option name="closed" value="true" />
