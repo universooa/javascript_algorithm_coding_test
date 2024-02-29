@@ -2,34 +2,48 @@ fs=require('fs')
 let inputPath=process.platform==='linux'?'/dev/stdin':'testCase.txt'
 let input=fs.readFileSync(inputPath,"utf8").trim().replaceAll('\r','').split('\n')
 
-let str=input[0].split('')
-let explosion=input[1].split('')
-let stack=[]
+let boxLength=input[0].split(' ').map(Number)
 
-for(let i=0;i<str.length;i++){
-    stack.push(str[i])
 
-    while(stack[stack.length-1]===explosion[explosion.length-1]){
-
-        let flag=true
-        let start=0
-        for(let j=stack.length-explosion.length;j<stack.length;j++){
-            if(explosion[start]!==stack[j]){
-                flag=false
-                break
-            }
-            start++
-        }
-        if(flag){
-            for(let i=0;i<explosion.length;i++){
-                stack.pop()
-            }
-        }else{
-            break
-        }
-    }
+let numOfCube=Number(input[1])
+let arr=new Array(20).fill(0)
+for(let i=2;i<=numOfCube+1;i++){
+    let [a,b]=input[i].split(' ').map(Number)
+    arr[a]=b
 }
 
-let result=stack.join('')
+function nearstSquare(x){
+    let i=1;
+    while((2**i)<=x){
+        i++
+    }
+    return i-1
+}
 
-console.log(result===''?'FRULA':result)
+let size=nearstSquare(boxLength[0])
+size=Math.min(size,nearstSquare(boxLength[1]))
+size=Math.min(size,nearstSquare(boxLength[2]))
+
+let cnt=0;
+let used=0
+for(let j=size;j>=0;j--){
+    used*=8
+    let num=arr[j]
+    let cur=2**j
+
+    let neededCube=Math.floor(boxLength[0]/cur)
+        * Math.floor(boxLength[1]/cur)
+        * Math.floor(boxLength[2]/cur)
+        -used
+
+    let usage=Math.min(neededCube,num)
+    used+=usage
+    cnt+=usage
+
+}
+
+if(used===boxLength[0]*boxLength[1]*boxLength[2]){
+    console.log(cnt)
+}else{
+    console.log(-1)
+}
